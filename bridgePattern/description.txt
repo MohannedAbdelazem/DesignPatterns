@@ -1,0 +1,11 @@
+In the bridge pattern there are mainly four classes in the diagram:
+1-Implementor: interface that is going to be used in the abstraction class
+2-Concrete Implementor: implementations of the Implementor
+3-abstraction: Interface or abstract class that has Implementor
+4-Concrete abstraction: Implementations of the abstract interface
+
+
+In this example I just wanted to say that I took it from christopher's
+playlist (he explains design patterns that are in the head first design 
+pattern in a great way I advise you If you wanna learn design patterns
+to watch his playlist or read headfirst design patterns both are good.)
