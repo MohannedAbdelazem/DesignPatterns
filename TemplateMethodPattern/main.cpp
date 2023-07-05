@@ -6,7 +6,8 @@ int main(){
     // usr.saveDB(entries, "users");
     // usr.saveDB(entries, "username");
     Posts post;
-    std::string entries[] = {"0", "harry potter", "The boy who lived"};
+    std::string entries[] = {"1", "Ron Weasley", "The Friend of the boy who lived and also the husband of\
+    a mudblood but also a genius called hermione granger"};
     post.saveDB(entries, "Posts");
     return 0;
 }

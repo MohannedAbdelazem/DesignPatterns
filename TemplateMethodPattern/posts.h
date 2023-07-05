@@ -5,7 +5,7 @@
 class Posts: public record{
     public:
     Posts();
-    bool Save(std::string entry[], std::string tableName);
+    bool Save(std::string entry[]);
     void beforeSave(std::string entry[]);
 };
 

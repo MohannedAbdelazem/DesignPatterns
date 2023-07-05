@@ -9,7 +9,7 @@ class record{
     ~record();
     void saveDB(std::string entry[], std::string tableName);
     virtual void beforeSave(std::string entry[]) = 0;
-    virtual bool Save(std::string entry[], std::string tableName) = 0;
+    virtual bool Save(std::string entry[]) = 0;
     void afterSave(std::string entry[], std::string tableName);
 };
 

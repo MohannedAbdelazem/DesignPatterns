@@ -20,7 +20,7 @@ void Posts::beforeSave(std::string entry[]){
         exit(3);
     }
 }
-bool Posts::Save(std::string entry[], std::string tableName){
+bool Posts::Save(std::string entry[]){
     std::string sql = "INSERT INTO Posts (id, PostTitle, PostText) \
     VALUES(?, ?, ?)";
     sqlite3_stmt* statement;

@@ -20,7 +20,7 @@ void record::afterSave(std::string entry[], std::string tableName){
 }
 void record::saveDB(std::string entry[], std::string tableName){
     beforeSave(entry);
-    if(Save(entry, tableName)){
+    if(Save(entry)){
         afterSave(entry, tableName);
     }
     else{

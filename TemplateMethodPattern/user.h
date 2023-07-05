@@ -4,7 +4,7 @@
 class User: public record{
     public:
     User();
-    bool Save(std::string entry[], std::string tableName);
+    bool Save(std::string entry[]);
     void beforeSave(std::string entry[]);
 };
 

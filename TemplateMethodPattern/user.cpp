@@ -20,7 +20,7 @@ void User::beforeSave(std::string entry[]){
         exit(3);
     }
 }
-bool User::Save(std::string entry[], std::string tableName){
+bool User::Save(std::string entry[]){
     std::string sql = "INSERT INTO users (id, username, password) \
     VALUES(?, ?, ?)";
     sqlite3_stmt* statement;
